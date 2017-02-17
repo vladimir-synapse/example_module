@@ -1,0 +1,15 @@
+example.main-page:
+  path: '/exapmle-main'
+  defaults:
+    _controller: '\Drupal\example_module\Controller\MainController::page'
+    _title: 'Example title'
+  requirements:
+    _permission: 'access content'
+
+example.settings:
+  path: '/admin/config/system/example'
+  defaults:
+    _form: '\Drupal\example\Form\Settings'
+    _title: 'Example Settings'
+  requirements:
+    _permission: 'administer site configuration'

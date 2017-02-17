@@ -1,0 +1,6 @@
+example.page:
+  css:
+    theme:
+      css/page.css: {}
+  js:
+    js/script.js: {}

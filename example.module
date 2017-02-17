@@ -1,0 +1,9 @@
+<?php
+function example_theme() {
+  return [
+    'example-template' => [
+      'template' => 'example-template',
+      'variables' => ['data' => []],
+    ],
+  ];
+}

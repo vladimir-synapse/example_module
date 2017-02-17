@@ -1,0 +1,6 @@
+name: Examle Name
+description: Example Descr
+package: Synapse
+
+type: module
+core: 8.x
